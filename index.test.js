@@ -3,6 +3,7 @@ describe("Stack Class", () => {
   it("#push should add a new item to the stack ", () => {
     const stack = new Stack();
     stack.push(1);
+    console.log(stack);
     expect(stack.peek()).toEqual(1);
   });
   // add more tests here...
