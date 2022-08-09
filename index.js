@@ -26,6 +26,27 @@ newStack.push('llama');
 console.log(newStack.push.length);
 
 // Queue Class
-class Queue {}
+class Queue {
+  #list;
+
+  constructor(initialList) {
+    this.#list = list || [];
+  }
+  enqueue(item) {
+    this.#list.push(item);
+  }
+
+  dequeue() {
+    return this.#list.
+  }
+
+  get count() {
+    return this.#list.length;
+  }
+
+  get next() {
+    return this.#list[0];
+  }
+}
 
 module.exports = { Stack, Queue };
